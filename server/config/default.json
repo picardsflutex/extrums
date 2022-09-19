@@ -1,0 +1,4 @@
+{
+  "serverPort" : 5000,
+  "dbUrl" : "mongodb+srv://testQuest:test1234@cluster0.uw6rqgt.mongodb.net/Tasks?retryWrites=true&w=majority"
+}
