@@ -1,0 +1,102 @@
+.fresh-ideas__btns{
+  width: calc(100% - 20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fresh-ideas__button{
+  border-radius: 50%;
+  outline: none;
+  background: none;
+
+  cursor: pointer;
+
+  width: 40px;
+  height: 40px;
+  margin: 10px 0;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transition: all .2s linear;
+}
+
+.fresh-ideas__button-add{
+  background-image: url(../../imgs/icons/check.png);
+}
+
+.fresh-ideas__button-del{
+  background-size: 25px;
+  background-position: center;
+  background-image: url(../../imgs/icons/add.png);
+}
+
+.fresh-ideas__button-add:hover{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.fresh-ideas__button-del:hover{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.fresh-ideas__add-idea{
+  width: 120px;
+  height: 120px;
+  background-size: 60px;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url(../../imgs/icons/add.png);
+}
+
+.fresh-ideas__add-idea:hover{
+  width: 140px;
+  height: 140px;
+}
+
+.fresh-ideas__btn-text{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.fresh-ideas__list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.fresh-ideas__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  border-radius: 10px;
+  width: 190px;
+  height: 275px;
+  margin: 20px;
+}
+
+.fresh-ideas__item-add{
+  justify-content: space-around;
+}
+
+.fresh-ideas__text{
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 30px;
+  margin-top: 0;
+}
+
+.fresh-ideas__theme{
+  width: 80%;
+  border-top: rgb(20, 184, 255) 0.125em solid;
+  text-align: center;
+  padding: 20px 30px;
+}

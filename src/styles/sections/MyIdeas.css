@@ -1,0 +1,32 @@
+.my-ideas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-ideas__inner{
+  width: 90%;
+}
+
+.my-ideas__slider{
+  margin: 20px 0;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.slick-arrow{
+  border-left: rgb(20, 184, 255) 2px solid !important;
+  border-bottom: rgb(20, 184, 255) 2px solid !important;
+  transform: rotate(45deg) !important;
+}
+
+.slick-arrow::before{
+  display: none !important;
+}
+
+.slick-next{
+  transform: rotate(225deg) !important;
+}
